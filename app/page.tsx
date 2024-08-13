@@ -1,11 +1,13 @@
-import Editor from '@components/Editor'
+import Editor from "@components/Editor";
 
-type Props = {}
+type Props = {};
 
 const page = (props: Props) => {
   return (
-    <Editor />
-  )
-}
+    <div className="screen absolute top-0 left-0 bg-[#eee] px-0 py-[9px]">
+      <Editor />
+    </div>
+  );
+};
 
-export default page
+export default page;
